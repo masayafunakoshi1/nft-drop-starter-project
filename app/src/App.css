@@ -45,6 +45,18 @@
   -webkit-text-fill-color: transparent;
 }
 
+.text-glow{
+  text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%);
+}
+
+.header-gradient{
+  background: -webkit-linear-gradient(left,#dca8ff 20%, #7bcfff 40%, #756bfa 80%);
+  background-size: 200% 150%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 6s ease infinite;
+}
+
 .cta-button {
   height: 45px;
   border: 0;
